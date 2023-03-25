@@ -14,6 +14,7 @@ jobs:
     - name: All things angular
       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
       with:
+        angular_project_dir: src/client/coodle
         github_access_token: ${{ secrets.COODLE_TOKEN }} 
         build_configuration: production 
         base_href: https://se22m007.github.io/coodle/
