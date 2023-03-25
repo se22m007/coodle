@@ -18,8 +18,6 @@ jobs:
         github_access_token: ${{ secrets.COODLE_TOKEN }} 
         build_configuration: production 
         base_href: https://se22m007.github.io/coodle/
-        deploy_branch: gh-pages
-        angular_dist_build_folder: dist/coodle
 
 permissions:
   contents: write 
